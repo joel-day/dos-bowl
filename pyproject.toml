@@ -13,7 +13,8 @@ dependencies = [
     "pydantic==2.10.6",         # Data validation and serialization library
     "python-dotenv==1.1.0",     # Loads environment variables from `.env` files
     "numpy>=1.26.0",            # Core package for numerical computations
-    "pandas==1.5.3",            # Data analysis and manipulation library
+    "pyarrow==15.0.2",          # Required for reading/writing Parquet files
+    "pandas==2.2.2",
     "pymongo==4.11.3",          # MongoDB driver for synchronous access
     "scikit-learn>1.1.3",       # Machine learning library
     "plotly==5.10.0",           # Interactive graphing library

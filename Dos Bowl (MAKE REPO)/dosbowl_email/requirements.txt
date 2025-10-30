@@ -1,6 +1,6 @@
-sleeper_wrapper
-matplotlib
-pandas
-datetime
-boto3
-awslambdaric
+sleeper_wrapper==1.6.6
+numpy==2.0.2
+pandas==2.2.2
+matplotlib==3.8.4
+boto3==1.34.75
+awslambdaric==2.0.11
